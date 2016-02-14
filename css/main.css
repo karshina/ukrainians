@@ -1,0 +1,129 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url('../img/background.jpg') 0px 0px no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position:relative;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.lang {
+    position: absolute;
+    top: 1vw;
+    right: 4%;
+    margin-left: -6vw;
+    font-family: Helvetica;
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.intro {
+    position: absolute;
+    text-align: center;
+    left: 4%;
+    margin: 0;
+    top: 10%;
+    width: 400px;
+}
+
+#headline {
+    font-size: 40px;
+    font-family: 'Futura W01 Book',sans-serif;
+    letter-spacing: .3em;
+    font-weight: 400;
+    padding: 60px 0 60px;
+    color: #fff;
+}
+
+.intro p {
+    width: auto;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0 5%;
+    text-align: justify;
+    font-family: Helvetica;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "FuturaLTW01-Book";
+    src: url("http://db.onlinewebfonts.com/t/c1cb3da0a99efe5f8993974e51cc68e9.eot");
+    src: url("http://db.onlinewebfonts.com/t/c1cb3da0a99efe5f8993974e51cc68e9.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/c1cb3da0a99efe5f8993974e51cc68e9.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/c1cb3da0a99efe5f8993974e51cc68e9.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/c1cb3da0a99efe5f8993974e51cc68e9.svg#FuturaLTW01-Book") format("svg");
+}
+
+.play {
+    background: url('../img/play_grey.png') 0px 0px no-repeat;
+    background-size: contain;
+    width: 20vh;
+    height: 20vh;
+   /* max-width: 97px;
+    max-height: 92px;*/
+    position: absolute;
+    left: 50%;
+    top: 43%;
+    opacity: 0.3;
+    filter: alpha(opacity=40);
+}
+
+.play:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    cursor: pointer;
+}
+
+.footer p {
+    position: absolute;
+    bottom: 1vw;
+    font-family: Helvetica;
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0 20px;
+}
+
+/*.video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
