@@ -9,28 +9,48 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    position:relative;
     font-family: "Times New Roman", Times, serif;
 }
 
 .lang {
     position: absolute;
-    top: 1vw;
-    right: 4%;
+    top: 2vh;
+    right: 3%;
     margin-left: -6vw;
-    font-family: Helvetica;
+    z-index: 2;
+}
+
+.lang a {
+    text-decoration: none;
     color: rgb(179, 179, 179);
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 200;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.lang span {
+    color: #fff;
+    opacity: 0.5;
+    font-family: Helvetica;
     font-size: 14px;
     font-weight: 200;
 }
 
+.lang a:hover {
+    cursor: pointer;
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
 .intro {
-    position: absolute;
+    position: relative;
     text-align: center;
     left: 4%;
-    margin: 0;
+    margin: 0 0 50px 0;
     top: 10%;
-    width: 400px;
+    width: 31vw;
 }
 
 #headline {
@@ -38,8 +58,10 @@ body {
     font-family: 'Futura W01 Book',sans-serif;
     letter-spacing: .3em;
     font-weight: 400;
-    padding: 60px 0 60px;
+    padding: 11vh 0 11vh 0;
     color: #fff;
+    text-align: center;
+    margin-top: 0px;
 }
 
 .intro p {
@@ -47,13 +69,14 @@ body {
     color: #fff;
     font-size: 15px;
     line-height: 1.5;
-    margin: 0;
+    margin: 0 9px 0 0;
     padding: 0 5%;
     text-align: justify;
     font-family: Helvetica;
     font-style: normal;
     font-variant: normal;
     font-weight: 300;
+    letter-spacing: 1px;
 }
 
 @font-face {
@@ -70,13 +93,14 @@ body {
     background-size: contain;
     width: 20vh;
     height: 20vh;
-   /* max-width: 97px;
-    max-height: 92px;*/
+    max-width: 150px;
+    max-height: 150px;
     position: absolute;
     left: 50%;
     top: 43%;
-    opacity: 0.3;
+    opacity: 0.5;
     filter: alpha(opacity=40);
+    z-index: 2;
 }
 
 .play:hover {
@@ -85,21 +109,60 @@ body {
     cursor: pointer;
 }
 
-.footer p {
+p.footer {
     position: absolute;
-    bottom: 1vw;
+    bottom: 0;
     font-family: Helvetica;
     color: rgb(179, 179, 179);
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 200;
-    margin: 0 20px;
+    float: left;
+    clear: left;
+    text-align: center;
+    width: 100vw;
+    height: 2.5vw;
+    margin-bottom: 0;
+    z-index: 2;
 }
 
-/*.video iframe {
-    position: absolute;
+p.footer a {
+    margin: 0 100px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    border-bottom: solid 1px #fff;
+    background-color: rgba(255,255,255,0);
+    border-color: rgba(255,255,255,.4);
+    color: #fff;
+    height: 18px;
+    padding: 0;
+    outline: 0;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+p.footer a:hover {
+    cursor: pointer;
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+p.footer a:visited {
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+}
+
+.none iframe {
+    display: none;
+}
+
+.video {
     width: 100%;
     height: 100%;
-}*/
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 .clearfix:before,
 .clearfix:after {
