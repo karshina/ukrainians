@@ -6,7 +6,7 @@ html {
 
 body {
     background: url('../img/background.jpg') 0px 0px no-repeat;
-    background-size: 100%;
+    background-size: cover;
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -57,14 +57,15 @@ body {
 }
 
 #headline {
-    font-size: 34px;
+    font-size: 32px;
     font-family: 'Futura W01 Book',sans-serif;
-    letter-spacing: .3em;
+    letter-spacing: .2em;
     font-weight: 400;
-    padding: 11vh 0 11vh 0;
+    padding: 8vh 0 8vh 0;
     color: #fff;
     text-align: center;
     margin-top: 0px;
+    line-height: 1.6;
 }
 
 .intro p {
@@ -101,8 +102,7 @@ p.footer {
     position: absolute;
     bottom: 0;
     font-family: Helvetica;
-    color: rgb(179, 179, 179);
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 200;
     float: left;
     clear: left;
@@ -124,7 +124,7 @@ p.footer a {
     padding: 0;
     outline: 0;
     display: inline-block;
-    opacity: 0.6;
+    opacity: 0.7;
     left: 6%;
     position: relative;
 }
@@ -136,7 +136,8 @@ p.footer a:hover {
 }
 
 p.footer a:visited {
-    color: rgb(179, 179, 179);
+    color: #fff;
+    opacity: 0.7;
     text-decoration: none;
 }
 
@@ -166,3 +167,117 @@ p.footer a:visited {
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1365px) { 
+    p.footer {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1200px) { 
+    .intro {
+        bottom: -14%;
+        width: 34vw;
+    }
+
+    #headline {
+        font-size: 30px;
+        letter-spacing: .2em;
+        line-height: 1.5;
+    }
+
+     p.footer {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) { 
+    .lang a {
+        font-size: 13px;
+    }
+
+    .intro {
+        bottom: -13%;
+        width: 36vw;
+    }
+
+    #headline {
+        font-size: 25px;
+        letter-spacing: .2em;
+        line-height: 1.4;
+    }
+
+    .intro p {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    .intro p.name {
+        font-size: 13px;
+    }
+
+    p.footer {
+        font-size: 12px;
+        height: 3vw;
+    }
+
+    p.footer a {
+        height: 15px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .lang {
+        top: 1vh;
+    }
+
+    .lang a {
+        font-size: 11px;
+        font-weight: 300;
+        opacity: 0.6;
+    }
+
+    .intro {
+        bottom: -12%;
+        width: 39vw;
+        left: 2%;
+    }
+
+    #headline {
+        font-weight: 300;
+        font-size: 20px;
+        letter-spacing: .1em;
+        line-height: 1.3;
+    }
+
+    .intro p {
+        font-size: 10px;
+        line-height: 1.2;
+        margin: 0;
+        font-weight: 100;
+        letter-spacing: normal;
+    }
+
+    .intro p.name {
+        font-size: 11px;
+    }
+
+    p.footer {
+        font-size: 11px;
+        height: 4vw;
+    }
+
+    p.footer a {
+        letter-spacing: normal;
+        height: 13px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+}
+
+
+
