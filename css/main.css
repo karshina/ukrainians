@@ -93,10 +93,10 @@ body {
 }
 
 .play {
-    background: url('../img/play_grey.png') 0px 0px no-repeat;
+    background: url('../img/play.png') 0px 0px no-repeat;
     background-size: contain;
-    width: 10vw;
-    height: 10vw;
+    width: 7vw;
+    height: 7vw;
     max-width: 150px;
     max-height: 150px;
     position: absolute;
@@ -234,8 +234,8 @@ p.footer a:visited {
     }
 
     .play {
-        width: 11vw;
-        height: 11vw;
+        width: 8vw;
+        height: 8vw;
     }
 
     p.footer {
@@ -269,8 +269,8 @@ p.footer a:visited {
     }
 
     .play {
-        width: 11vw;
-        height: 11vw;
+        width: 8vw;
+        height: 8vw;
     }
 
     p.footer {
@@ -318,8 +318,8 @@ p.footer a:visited {
     }
 
     .play {
-        width: 13vw;
-        height: 13vw;
+        width: 9vw;
+        height: 9vw;
     }
 
     p.footer {
