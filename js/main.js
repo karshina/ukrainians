@@ -8,11 +8,23 @@ $(document).ready(function($) {
 	var $footer = $('.footer')
 	var player = {}
 
-    var tag = document.createElement('script');
+  var tag = document.createElement('script');
 
-    tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  var stroke = document.querySelector('.stroke');
+  var length = stroke.getTotalLength();
+
+  console.log(length);
+
+  stroke.style.strokeDasharray = length;
+  stroke.style.strokeDashoffset = length;
+
+  var animationDiv = document.querySelector('.stroke');
+
+  animationDiv.style.webkitAnimationPlayState = "running";
 
 function retinaSrc(src) {
     if (window.Retina.isRetina()) {
