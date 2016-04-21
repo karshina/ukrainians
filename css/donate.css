@@ -31,6 +31,7 @@ body {
     font-weight: 200;
     color: #fff;
     opacity: 0.5;
+    text-shadow: 1px -1px 1px black;
 }
 
 .lang span {
@@ -81,6 +82,7 @@ body {
     font-variant: normal;
     font-weight: 300;
     letter-spacing: 1px;
+    text-shadow: 1px -1px 1px black;
 }
 
 .intro p.name {
@@ -127,6 +129,7 @@ p.footer a {
     opacity: 0.7;
     left: 6%;
     position: relative;
+    text-shadow: 2px -1px 1px black;
 }
 
 p.footer a:hover {

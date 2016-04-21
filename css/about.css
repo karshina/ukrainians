@@ -31,6 +31,7 @@ body {
     font-weight: 200;
     color: #fff;
     opacity: 0.5;
+    text-shadow: 1px -1px 1px black;
 }
 
 .lang span {
@@ -51,7 +52,7 @@ body {
     position: relative;
     text-align: center;
     left: 4%;
-    bottom: -15%;
+    bottom: -12%;
     margin: 0 0 50px 0;
     width: 29vw;
 }
@@ -81,6 +82,7 @@ body {
     font-variant: normal;
     font-weight: 300;
     letter-spacing: 1px;
+    text-shadow: 1px -1px 1px black;
 }
 
 .prizes {
@@ -129,9 +131,10 @@ p.footer a {
     padding: 0;
     outline: 0;
     display: inline-block;
-    opacity: 0.7;
+    opacity: 0.9;
     left: 14%;
     position: relative;
+    text-shadow: 2px -1px 1px black;
 }
 
 p.footer a:hover {
