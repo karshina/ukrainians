@@ -7,7 +7,7 @@ var glob = require('glob');
 var path = require('path');
 var fs = require('fs');
 
-const defaultLang = "ua";
+const defaultLang = "uk";
 const languagesPath = "templates/languages/*.yml";
 const pagesPath = "templates/pages/*.tpl";
 const partialsPath = "templates/partials/*.tpl";
