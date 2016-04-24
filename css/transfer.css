@@ -31,7 +31,7 @@ body {
     font-weight: 200;
     color: #fff;
     opacity: 0.7;
-    text-shadow: 1px -1px 1px black;
+    text-shadow: 0 0 3px black;
 }
 
 .lang span {
@@ -64,6 +64,7 @@ body {
     color: #fff;
     text-align: center;
     margin-top: 0px;
+    text-shadow: 0 0 3px black;
     line-height: 1.6;
 }
 
@@ -80,6 +81,7 @@ body {
     font-variant: normal;
     font-weight: 300;
     letter-spacing: 1px;
+    text-shadow: 0 0 3px black;
 }
 
 @font-face {
@@ -119,7 +121,7 @@ p.footer a {
     outline: 0;
     display: inline-block;
     opacity: 0.8;
-    text-shadow: 2px -1px 1px black;
+    text-shadow: 0 0 3px black;
 }
 
 p.footer a:hover {
