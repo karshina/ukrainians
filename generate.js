@@ -52,7 +52,6 @@ glob.sync(pagesPath).forEach(function(fileName){
     view["lang_" + lang] = true;
     view["page_" + pageName] = true;
 
-    var output = Mustache.render(pageData, view, partials);
     var outputPageName = pageName + "_" + lang + ".html";
 
     if (lang == defaultLang) {
@@ -60,6 +59,7 @@ glob.sync(pagesPath).forEach(function(fileName){
       view.langSuffix = ""
     }
 
+    var output = Mustache.render(pageData, view, partials);
     var fileDestination = outputDir + "/" + outputPageName;
 
     console.log("writing", fileDestination);
