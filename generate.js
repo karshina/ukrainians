@@ -61,6 +61,7 @@ glob.sync(pagesPath).forEach(function(fileName){
   }
 });
 
+// Dev http server
 if (process.argv[2]) {
   var port = parseInt(process.argv[2], 10);
   var express = require('express');
