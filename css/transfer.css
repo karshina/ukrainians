@@ -5,13 +5,13 @@ html {
 }
 
 body {
-    background: url('../img/about_1920.jpg') 0px 0px no-repeat;
+    background: url('../img/test_3.jpg') 0px 0px no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
+    overflow:hidden;
     font-family: "Times New Roman", Times, serif;
 }
 
@@ -30,13 +30,13 @@ body {
     font-size: 14px;
     font-weight: 200;
     color: #fff;
-    opacity: 0.5;
+    opacity: 0.7;
     text-shadow: 1px -1px 1px black;
 }
 
 .lang span {
     color: #fff;
-    opacity: 0.5;
+    opacity: 0.7;
     font-family: Helvetica;
     font-size: 14px;
     font-weight: 200;
@@ -51,29 +51,28 @@ body {
 .intro {
     position: relative;
     text-align: center;
-    left: 4%;
-    bottom: -12%;
-    margin: 0 0 50px 0;
-    width: 40vw;
+    margin: 0 auto;
+    width: 50%;
 }
 
-.workers {
-    font-size: 20px;
+#headline {
+    font-size: 24px;
     font-family: 'Futura W01 Book',sans-serif;
-    letter-spacing: .2em;
+    letter-spacing: .3em;
     font-weight: 400;
-    padding: 10px 0 10px 0;
+    padding: 8vh 0 8vh 0;
     color: #fff;
     text-align: center;
+    margin-top: 0px;
     line-height: 1.6;
 }
 
 .intro p {
     width: auto;
     color: #fff;
-    font-size: 14px;
-    line-height: 1.7;
-    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 9px 0 0;
     padding: 0 5%;
     text-align: justify;
     font-family: Helvetica;
@@ -81,17 +80,6 @@ body {
     font-variant: normal;
     font-weight: 300;
     letter-spacing: 1px;
-    text-shadow: 1px -1px 1px black;
-}
-
-.prizes {
-    font-size: 20px;
-    font-family: 'Futura W01 Book',sans-serif;
-    letter-spacing: .2em;
-    font-weight: 400;
-    color: #fff;
-    text-align: center;
-    line-height: 1.6;
 }
 
 @font-face {
@@ -111,6 +99,7 @@ p.footer {
     font-weight: 200;
     float: left;
     clear: left;
+    text-align: center;
     width: 100%;
     height: 2.5vw;
     margin-bottom: 0;
@@ -118,9 +107,9 @@ p.footer {
 }
 
 p.footer a {
-    margin: 0;
+    margin: 0 8vw;
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     border-bottom: solid 1px #fff;
     background-color: rgba(255,255,255,0);
     border-color: rgba(255,255,255,.4);
@@ -129,9 +118,7 @@ p.footer a {
     padding: 0;
     outline: 0;
     display: inline-block;
-    opacity: 0.9;
-    left: 14%;
-    position: relative;
+    opacity: 0.8;
     text-shadow: 2px -1px 1px black;
 }
 
@@ -177,10 +164,45 @@ p.footer a:visited {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
 }
 
-@media only screen and (min-width: 1201px) and (max-width: 1367px) { 
-    body {
-        background: url('../img/about_1367.jpg') 0px 0px no-repeat;
+@media only screen and (min-width: 1900px) and (max-width: 2600px) {
+    .lang {
+        top: 3vh;
     }
+
+    .lang a {
+        font-size: 24px;
+    }
+
+    .intro {
+        bottom: -12%;
+        width: 39vw;
+        left: 2%;
+    }
+
+    #headline {
+        font-size: 50px;
+    }
+
+    .intro p {
+        font-size: 30px;
+    }
+
+    p.footer {
+        height: 3vw;
+        font-size: 24px;
+    }
+
+    p.footer a {
+        margin: 0px 6vw;
+        border-bottom: solid 2px #fff;
+        height: 34px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1367px) { 
+    /*body {
+        background: url('../img/background_1367.jpg') 0px 0px no-repeat;
+    }*/
 
     p.footer {
         font-size: 13px;
@@ -188,35 +210,34 @@ p.footer a:visited {
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1200px) { 
-    body {
-        background: url('../img/about_1200.jpg') 0px 0px no-repeat;
-    }
+    /*body {
+        background: url('../img/background_1200.jpg') 0px 0px no-repeat;
+    }*/
 
     .intro {
         bottom: -14%;
-        width: 43vw;
+        width: 34vw;
     }
-    
-    .workers {
-        font-size: 18px;
+
+    #headline {
+        font-size: 30px;
         letter-spacing: .2em;
         line-height: 1.5;
     }
-    
-    .prizes {
-        font-size: 18px;
-        letter-spacing: .2em;
+
+    p.footer {
+        font-size: 13px;
     }
 
-     p.footer {
-        font-size: 13px;
+    p.footer a {
+        margin: 0px 5vw;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1000px) { 
-    body {
-        background: url('../img/about_1000.jpg') 0px 0px no-repeat;
-    }
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    /*body {
+        background: url('../img/background_1000.jpg') 0px 0px no-repeat;
+    }*/
 
     .lang a {
         font-size: 13px;
@@ -224,18 +245,13 @@ p.footer a:visited {
 
     .intro {
         bottom: -13%;
-        width: 45vw;
+        width: 36vw;
     }
 
-    .workers {
-        font-size: 16px;
+    #headline {
+        font-size: 25px;
         letter-spacing: .2em;
-        line-height: 1.5;
-    }
-    
-    .prizes {
-        font-size: 16px;
-        letter-spacing: .2em;
+        line-height: 1.4;
     }
 
     .intro p {
@@ -243,25 +259,23 @@ p.footer a:visited {
         line-height: 1.4;
     }
 
-    .intro p.name {
-        font-size: 13px;
-    }
-
     p.footer {
-        font-size: 12px;
         height: 3vw;
+        font-size: 12px;
     }
 
     p.footer a {
+        margin: 0px 4vw;
+        letter-spacing: 2px;
         height: 15px;
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    body {
-        background: url('../img/about_767.jpg') 0px 0px no-repeat;
-    }
-
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    /*body {
+        background: url('../img/background_767.jpg') 0px 0px no-repeat;
+    }*/
+   
     .lang {
         top: 1vh;
     }
@@ -274,39 +288,80 @@ p.footer a:visited {
 
     .intro {
         bottom: -12%;
-        width: 48vw;
+        width: 39vw;
         left: 2%;
     }
 
-    .workers {
-        font-size: 14px;
-        letter-spacing: .2em;
-        line-height: 1.4;
-    }
-    
-    .prizes {
-        font-size: 14px;
-        letter-spacing: .2em;
+    #headline {
+        font-weight: 300;
+        font-size: 20px;
+        letter-spacing: .1em;
+        line-height: 1.3;
     }
 
     .intro p {
-        font-size: 11px;
+        font-size: 10px;
         line-height: 1.2;
         margin: 0;
         font-weight: 100;
         letter-spacing: normal;
     }
 
-    .intro p.name {
-        font-size: 11px;
-    }
-
     p.footer {
-        font-size: 11px;
         height: 4vw;
+        font-size: 11px;
     }
 
     p.footer a {
+        margin: 0px 4vw;
+        letter-spacing: normal;
+        height: 13px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+    /*body {
+        background: url('../img/background_600.jpg') 0px 0px no-repeat;
+    }*/
+   
+    .lang {
+        top: 1vh;
+    }
+
+    .lang a {
+        font-size: 11px;
+        font-weight: 300;
+        opacity: 0.6;
+    }
+
+    .intro {
+        bottom: -12%;
+        width: 39vw;
+        left: 2%;
+    }
+
+    #headline {
+        font-weight: 300;
+        font-size: 20px;
+        letter-spacing: .1em;
+        line-height: 1.3;
+    }
+
+    .intro p {
+        font-size: 10px;
+        line-height: 1.2;
+        margin: 0;
+        font-weight: 100;
+        letter-spacing: normal;
+    }
+
+    p.footer {
+        height: 4vw;
+        font-size: 10px;
+    }
+
+    p.footer a {
+        margin: 0px 4vw;
         letter-spacing: normal;
         height: 13px;
     }
@@ -314,6 +369,5 @@ p.footer a:visited {
 
 @media screen and (max-width: 479px) {
 }
-
 
 
