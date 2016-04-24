@@ -57,3 +57,15 @@ glob.sync(pagesPath).forEach(function(fileName){
     fs.writeFileSync(fileDestination, output);
   }
 })
+
+if (process.argv[2]) {
+  var port = parseInt(process.argv[2], 10);
+  var express = require('express');
+  var app = express();
+
+  app.use(express.static(outputDir));
+
+  app.listen(port, function () {
+    console.log('Dev server listening on http://localhost:%d', port);
+  });
+}

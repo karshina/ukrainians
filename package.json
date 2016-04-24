@@ -7,13 +7,15 @@
     "doc": "doc"
   },
   "dependencies": {
+    "express": "^4.13.4",
     "mustache": "^2.2.1",
     "yamljs": "^0.2.7"
   },
   "devDependencies": {},
   "scripts": {
-    "dpeloy": "git subtree push --prefix public origin gh-pages",
-    "dev": "nodemon -w templates"
+    "deploy": "git subtree push --prefix public origin gh-pages",
+    "generate": "node generate.js",
+    "dev": "nodemon -w templates -x 'node generate.js 8081' -e 'tpl,yml'"
   },
   "repository": {
     "type": "git",
