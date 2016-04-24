@@ -17,8 +17,14 @@ const outputDir = "public";
 var languages = glob.sync(languagesPath).reduce(function(acc, fileName){
   var langName = path.basename(fileName, ".yml");
   var langData = fs.readFileSync(fileName).toString("utf-8");
-  var langObject = YAML.parse(langData);
-  acc[langName] = langObject;
+  try {
+    var langObject = YAML.parse(langData);
+    acc[langName] = langObject;
+  }
+  catch(e) {
+    console.error("Problem parsing file", fileName)
+    console.error(e)
+  }
   return acc;
 }, {})
 
