@@ -36,10 +36,12 @@ glob.sync(pagesPath).forEach(function(fileName){
   var pageData = fs.readFileSync(fileName).toString("utf-8");
 
   for (var lang in languages) {
-    var view = languages[lang];
-
-    view.langName = lang;
-    view.pageName = pageName;
+    var view = {
+      langName: lang,
+      langSuffix: "_" + lang,
+      pageName: pageName,
+    };
+    view.__proto__ = languages[lang];
 
     view["lang_" + lang] = true;
     view["page_" + pageName] = true;
@@ -49,6 +51,7 @@ glob.sync(pagesPath).forEach(function(fileName){
 
     if (lang == defaultLang) {
       outputPageName = pageName + ".html";
+      view.langSuffix = ""
     }
 
     var fileDestination = outputDir + "/" + outputPageName;
@@ -56,7 +59,7 @@ glob.sync(pagesPath).forEach(function(fileName){
     console.log("writing", fileDestination);
     fs.writeFileSync(fileDestination, output);
   }
-})
+});
 
 if (process.argv[2]) {
   var port = parseInt(process.argv[2], 10);
