@@ -1,16 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="uk">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
-    <title>Добровольці Божої чоти</title>
-    <meta name="description" content="Добровольці Божої чоти - один з кращих документальних фільмів України. У фільмі показана історія творення нової української армії. Народ повстав проти кримінального уряду - васалів Російської Імперії. Розлючений колонізатор кидає на Україну свої війська та під дулами автоматів захоплює частину території. Але патріоти-добровольці не згодні віддавати її ворогові. 242 дні тривала героїчна оборона Донецького Аеропорту. Врешті під прицільним обстрілом танків будівля аеропорту завалилась. Люди витримали, не витримав бетон.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/index.css">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-</head>
+    {{> header}}
     <body>
         <div class="lang">
             <p>
@@ -22,7 +12,7 @@
             </p>
         </div>
         <div class="intro">
-          <h1 id="headline">ДОБРОВОЛЬЦI БОЖОЇ ЧОТИ</h1>
+          <h1 id="headline">{{headline}}</h1>
           <p>Документальний бойовик про війну. Не про ненависть, а про любов.</p>
           <p class="download">
             <a href="transfer.html">ЗАВАНТАЖИТИ ФІЛЬМ</a>
@@ -57,14 +47,6 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<script>
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-    e.src='https://www.google-analytics.com/analytics.js';
-    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-</script>
+        {{>google_analytics}}
     </body>
 </html>
