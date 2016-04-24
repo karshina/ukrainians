@@ -1,1 +1,27 @@
-headline: THE UKRAINIANS
+title: The Ukrainians
+
+index:
+  content: This film is a documental story about creation of the new Ukrainian army. Ukrainian people rebelled against the criminal government that was a vassal of the Russian Empire. Furious colonizer threw its own military in Ukraine and under the automats’ muzzles grabbed a part of our territory. In that case patriots-volunteers did not agree to give our land to the enemy. 242 – it’s an amount of days of the heroic defense of Donetsk airport.
+  headline: THE UKRAINIANS
+  description: This film is a documental story about creation of the new Ukrainian army. Ukrainian people rebelled against the criminal government that was a vassal of the Russian Empire. Furious colonizer threw its own military in Ukraine and under the automats’ muzzles grabbed a part of our territory. In that case patriots-volunteers did not agree to give our land to the enemy. 242 – it’s an amount of days of the heroic defense of Donetsk airport.
+  download: DOWNLOAD MOVIE
+  trailer: WATCH THE TRAILER
+
+  footer:
+    - link: about_en.html
+      text: ABOUT THE FILM
+    - link: donate_en.html
+      text: CHARITABLE CONTRIBUTIONS
+    - link: contacts_en.html
+      text: CONTACT INFORMATION
+
+donate:
+  headline: CHARITABLE CONTRIBUTIONS
+  description: “If I died in this war, I hope my colleagues would care about my children. I mean not to feed or dress, but to give them a good education for finding their feet. It is our duty to help those children whose parents died for Ukraine”.
+  name: LEONID KANTER
+
+  footer:
+    - link: transfer.html
+      text: TRANSFER FUNDS TO CHILDREN'S EDUCATIONS
+    - link: index.html
+      text: HOME

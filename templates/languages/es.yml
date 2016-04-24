@@ -1,0 +1,27 @@
+title: Los Ucranianos
+
+index:
+  content: Esta película es un documental sobre la creación del nuevo ejército de Ucrania. El pueblo ucraniano se rebeló contra el gobierno criminal que era un vasallo del Imperio Ruso. Furioso colonizador lanzó su propio ejército en Ucrania y a punta de fusil tomó una parte de nuestro territorio. En ese caso patriotas-voluntarios no estaban de acuerdo con entregar nuestra tierra al enemigo. 242 - es la cantidad de días de la heroica defensa del aeropuerto de Donetsk.
+  headline: LOS UCRANIANOS
+  description: Esta película es un documental sobre la creación del nuevo ejército de Ucrania. El pueblo ucraniano se rebeló contra el gobierno criminal que era un vasallo del Imperio Ruso. Furioso colonizador lanzó su propio ejército en Ucrania y a punta de fusil tomó una parte de nuestro territorio. En ese caso patriotas-voluntarios no estaban de acuerdo con entregar nuestra tierra al enemigo. 242 - es la cantidad de días de la heroica defensa del aeropuerto de Donetsk.
+  download: DOWNLOAD MOVIE
+  trailer: WATCH THE TRAILER
+
+  footer:
+    - link: about_es.html
+      text: ACERCA DE LA PELÍCULA
+    - link: donate_es.html
+      text: CONTRIBUCIONES CARITATIVAS
+    - link: contacts_es.html
+      text: CONTACTOS
+
+donate:
+  headline: CONTRIBUCIONES CARITATIVAS
+  description: “Si me hubiera muerto en esta guerra, espero que mis colegas se ocuparán de mis hijos. No me refiero a alimentarlos o a vestirlos, sino a darles una buena educación, un sostén. Es nuestro deber ayudar a aquellos niños cuyos padres murieron por Ucrania".
+  name: LEONID KANTER
+
+  footer:
+    - link: transfer.html
+      text: TRANSFER FUNDS TO CHILDREN'S EDUCATIONS
+    - link: index.html
+      text: HOME

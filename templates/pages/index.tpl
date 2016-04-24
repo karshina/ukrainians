@@ -1,21 +1,13 @@
 <!doctype html>
-<html class="no-js" lang="uk">
+<html lang="{{langName}}">
     {{> header}}
     <body>
-        <div class="lang">
-            <p>
-                <a href="index.html">Ua</a><span> | </span>
-                <a href="index_en.html">En</a><span> | </span>
-                <a href="index_es.html">Es</a><span> | </span>
-                <a href="index_pl.html">Pl</a><span> | </span>
-                <a href="index_he.html">He</a>
-            </p>
-        </div>
+        {{> languages}}
         <div class="intro">
-          <h1 id="headline">{{headline}}</h1>
-          <p>Документальний бойовик про війну. Не про ненависть, а про любов.</p>
+          <h1 id="headline">{{index.headline}}</h1>
+          <p>{{index.description}}</p>
           <p class="download">
-            <a href="transfer.html">ЗАВАНТАЖИТИ ФІЛЬМ</a>
+            <a href="transfer{{langSuffix}}.html">{{index.download}}</a>
           </p>
         </div>
         <div class="icon">
@@ -29,7 +21,7 @@
              c0,12.68,10.32,23,23,23c12.68,0,23-10.32,23-23C53,17.32,42.68,7,30,7z" />
             </g>
           </svg>
-          <p class="trailer">ДИВИТИСЬ ТРЕЙЛЕР</p>
+          <p class="trailer">{{index.trailer}}</p>
         </div>
         <div class="video none"> 
             <div class="close none"></div>
@@ -37,16 +29,14 @@
             <!-- <iframe src="https://www.youtube.com/embed/Fftqr09RQ1w" frameborder="0" allowfullscreen></iframe> -->
         </div>
             <p class="footer">
-                <a href="about.html">ПРО ФІЛЬМ</a>
-                <a href="donate.html">ДОБРОЧИННІ ВНЕСКИ</a>
-                <a href="#">КОНТАКТНА ІНФОРМАЦІЯ</a>
+              {{#index.footer}}
+                <a href="{{link}}">{{text}}</a>
+              {{/index.footer}}
             </p>
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        {{>js}}
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
         {{>google_analytics}}
     </body>
 </html>

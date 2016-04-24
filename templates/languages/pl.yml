@@ -1,0 +1,27 @@
+title: OCHOTNICY BOSKIEGO ZASTĘPU
+
+index:
+  content: Ten film - opowieść o stworzeniu nowej armii ukraińskiej. Ludzie zbuntowali się przeciwko przestępczemu rządowi - wasali Imperiium Rosyjskiego. Rozwścieczony kolonizator rzuca na Ukrainę swoje wójsko i pod lufami automatów przechwytuje część terytorium. Ale patrioci-ochotnicy nie zgadzają się, aby oddć jej wrogowi. Bohaterska obrona lotniska w Doniecku trwała 242 dni.
+  headline: OCHOTNICY BOSKIEGO ZASTĘPU
+  description: Ten film - opowieść o stworzeniu nowej armii ukraińskiej. Ludzie zbuntowali się przeciwko przestępczemu rządowi - wasali Imperiium Rosyjskiego. Rozwścieczony kolonizator rzuca na Ukrainę swoje wójsko i pod lufami automatów przechwytuje część terytorium. Ale patrioci-ochotnicy nie zgadzają się, aby oddć jej wrogowi. Bohaterska obrona lotniska w Doniecku trwała 242 dni.
+  download: DOWNLOAD MOVIE
+  trailer: WATCH THE TRAILER
+
+  footer:
+    - link: about_pl.html
+      text: O FILMIE
+    - link: donate_pl.html
+      text: OFIARY
+    - link: contacts_pl.html
+      text: INFORMACJE KONTAKTOWE
+
+donate:
+  headline: O OFIARACH
+  description: “Gdyby tak się stało, że zginąłbym w tej wojnie, mam nadzieję, że moi koledzy zadbają o moje dzieci - nie karmili by lub przyodziewali, a dali by im dobre wykształcenie, aby stanęli mocno na własnych nogach. To jest nasz obowiązek, aby pomóc wyedukować dzieci,  których rodzice zginęli za Ukrainę”.
+  name: LEONID KANTER
+
+  footer:
+    - link: transfer.html
+      text: PRZELICZYĆ KOSZTY NA KSZTAŁCENIE DZIECI
+    - link: index.html
+      text: STRONA GŁÓWNA
