@@ -87,7 +87,7 @@ body {
 
 p.download {
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 6vh;
 }
 
 p.download a {
@@ -314,7 +314,16 @@ p.footer a:visited {
     }
 
     .intro p {
-        font-size: 30px;
+        font-size: 26px;
+    }
+    
+    p.download {
+        margin-top: 6vh;
+    }
+
+    p.download a {
+        margin: 0 auto;
+        font-size: 24px;
     }
 
     .icon:hover .trailer {
@@ -359,6 +368,15 @@ p.footer a:visited {
         line-height: 1.5;
     }
 
+    p.download {
+        margin-top: 6vh;
+    }
+
+    p.download a {
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
     p.footer {
         font-size: 13px;
     }
@@ -391,6 +409,16 @@ p.footer a:visited {
     .intro p {
         font-size: 12px;
         line-height: 1.4;
+    }
+    
+    p.download {
+        margin-top: 6vh;
+    }
+
+    p.download a {
+        margin: 0 auto;
+        font-size: 12px;
+        letter-spacing: 2px;
     }
 
     .icon:hover .trailer {
@@ -446,6 +474,17 @@ p.footer a:visited {
         letter-spacing: normal;
     }
 
+    p.download {
+        margin-top: 6vh;
+    }
+
+    p.download a {
+        margin: 0 auto;
+        font-size: 11px;
+        letter-spacing: 1px;
+        height: 13px;
+    }
+
     .icon:hover .trailer {
         font-size: 9px;
         line-height: 1.2;
@@ -458,7 +497,7 @@ p.footer a:visited {
 
     p.footer a {
         margin: 0px 4vw;
-        letter-spacing: normal;
+        letter-spacing: 1px;
         height: 13px;
     }
 }
@@ -498,6 +537,17 @@ p.footer a:visited {
         font-weight: 100;
         letter-spacing: normal;
     }
+    
+    p.download {
+        margin-top: 6vh;
+    }
+
+    p.download a {
+        margin: 0 auto;
+        font-size: 10px;
+        letter-spacing: 1px;
+        height: 13px;
+    }
 
     .icon:hover .trailer {
         font-size: 9px;
@@ -511,7 +561,7 @@ p.footer a:visited {
 
     p.footer a {
         margin: 0px 4vw;
-        letter-spacing: normal;
+        letter-spacing: 1px;
         height: 13px;
     }
 }
