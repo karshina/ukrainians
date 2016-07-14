@@ -25,3 +25,69 @@ donate:
       text: PRZELICZYĆ KOSZTY NA KSZTAŁCENIE DZIECI
     - link: index.html
       text: STRONA GŁÓWNA
+
+transfer:
+  headline: TRANSFER FUNDS
+  description: |
+    Просимо вас перерахувати доброчинний внесок - це допоможе отримати освіту дітям, батьки яких загинули боронячи свій край. Якщо у вас немає такої можливості, ви можете скачати фільм безкоштовно. Дякуємо за розуміння і гарного перегляду. Слава Україні!
+    Реквізити:
+    UAH
+    УкрСиббанк
+    МФО 351005
+    ЄДРПОУ 400 98921
+    № рахунку 26008590058400
+    USD
+    Найменування юридичної особи "Служба соціального захисту НВР "Правий Сектор"
+    код ЄДПРОУ  40098921
+    Валюта рахунку USD
+    № рахунку  26008590058400
+    Назва банку  - Публічне акціонерне товариство "УкрСиббанк"
+    МФО 351005
+    Банк бенефіціара (АТ "УкрСиббанк"):
+    020061151200138
+    UKRSIBBANK
+    MOSKOVSKY AVE 60
+    KHARKIV, UKRAINE
+    SWIFT-код KHABUA2K
+    Банк посередник- BNP PARIBAS U.S.A.-New York Branch
+    New York USA
+    SWIFT-код BNPAUS3N
+  main: HOME
+
+about:
+  description: Цей фільм - історія творення нової української армії. Народ повстав проти кримінального уряду - васалів Російської Імперії. Розлючений колонізатор кидає на Україну свої війська та під дулами автоматів захоплює частину території. Але патріоти-добровольці не згодні віддавати її ворогові. 242 дні тривала героїчна оборона Донецького Аеропорту. Врешті під прицільним обстрілом танків будівля аеропорту завалилась. Люди витримали, не витримав бетон.
+  headline: НАД ФІЛЬМОМ ПРАЦЮВАЛИ
+  cast:
+    - profession: Режисери
+      name: Леонід Кантер, Іван Ясній
+    - profession: Оператори
+      name: Іван Ясній, Леонід Кантер  
+    - profession: Музика
+      name: Олексій Бик, "Кому Вниз"
+    - profession: Звук
+      name: Олег Фалєєв, Артем Мостовий
+    - profession: Продюсер
+      name: Леонід Кантер
+  prizes: НАГОРОДИ
+  prize: 
+    - festival: 1. Poland - 13th GDAŃSK DOCFILM FESTIVAL 2015 (Audience award).
+    - festival: 2. Nigeria - Abuja International film and video festival 2015 (Best documentary film)
+    - festival: 3. "Cinema Vérité" Iran International Documentary Film Festival, 2015, Іран
+    - festival: 4. Plus Camerimage, 2015, Польща
+    - festival: 5. Cabo Verde International Film Festival, 2015, Кабо-Верде
+    - festival: 6. Delhi International Film festival, 2015, Індія
+    - festival: 7. 17th Madurai International Documentary and Short Film Festival 2015, Індія
+    - festival: 8. BUZZ CEE International Film Festival 2016, Румунія
+    - festival: 9. Перший Міжнародний фестиваль патріотичного документального кіно «КіноДок», 2016, Україна
+    - festival: 10. Премія НCКУ, 2016, Україна - Диплом Секретаріату Правління НСКУ «За громадянську та мистецьку мужність у фіксуванні та осмисленні подій російсько-української війни»
+    - festival: 11. CreActive International Open Film Festival (IOFF), 2016, Бангладеш
+    - festival: 12. Миколайчук-Фест, 2016, Україна - фільм-закриття
+
+contacts:
+  headline: CONTACTS
+  description: |
+    З питань дистрибуції та публічних показів – Леонід Кантер leonid.kanter@gmail.com, +380 67 230 62 07. 
+    З питань підтримки дітей – Анна Демиденко. 
+    Сторінки у ФБ -  https://www.facebook.com/profile.php?id=274847276048233&ref=ts&fref=ts
+    https://www.facebook.com/profile.php?id=782610808490736&ref=ts&fref=ts 
+  main: HOME
