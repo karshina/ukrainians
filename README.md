@@ -14,4 +14,11 @@ More info:
 
 [Github pages](https://pages.github.com/) are used to publish this site, see [gh-pages](https://github.com/karshina/ukrainians/tree/gh-pages) branch. Only ***public*** directory is published using [this technique](https://gist.github.com/cobyism/4730490). 
 
-*TODO: document static site generator stuff*
+### Development workflow
+
+1. Clone the repository or pull the new changes
+2. `npm install` to install actual dependencies
+3. `npm run dev` to run dev server (a live static site generator)
+4. Or `npm run generate` to generate the static content once (everything goes to ./public) – is optional if you have just run 3.
+5. Commit and push your changes
+6. `npm run deploy` will force-push a subtree from ./public directory to `gh-pages` git branch 
