@@ -53,6 +53,11 @@ body {
     text-align: center;
     margin: 0 auto;
     width: 50%;
+
+    background: rgba(0,0,0, 0.5);
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
 }
 
 #headline {
@@ -215,11 +220,9 @@ p.footer a:visited {
     }
 
     // Temporary disable until responsive will be fixed
-    // .intro {
-    //     bottom: -12%;
-    //     width: 39vw;
-    //     left: 2%;
-    // }
+    .intro {
+        width: 100%;
+    }
 
     #headline {
         font-size: 50px;
@@ -257,10 +260,9 @@ p.footer a:visited {
     }*/
 
     // Temporary disable until responsive will be fixed
-    // .intro {
-    //     bottom: -14%;
-    //     width: 34vw;
-    // }
+    .intro {
+        width: 100%;
+    }
 
     #headline {
         font-size: 30px;
@@ -287,10 +289,9 @@ p.footer a:visited {
     }
 
     // Temporary disable until responsive will be fixed
-    // .intro {
-    //     bottom: -13%;
-    //     width: 36vw;
-    // }
+    .intro {
+        width: 100%;
+    }
 
     #headline {
         font-size: 25px;
@@ -331,9 +332,7 @@ p.footer a:visited {
     }
 
     .intro {
-        bottom: -12%;
-        width: 39vw;
-        left: 2%;
+        width: 100%;
     }
 
     #headline {
@@ -379,11 +378,8 @@ p.footer a:visited {
     }
 
     .intro {
-        bottom: -12%;
-        width: 39vw;
-        left: 2%;
+        width: 100%;
     }
-
     #headline {
         font-weight: 300;
         font-size: 20px;
@@ -412,6 +408,9 @@ p.footer a:visited {
 }
 
 @media screen and (max-width: 479px) {
+    .intro {
+        width: 100%;
+    }
 }
 
 

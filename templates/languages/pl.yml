@@ -82,9 +82,12 @@ about:
 
 contacts:
   headline: CONTACTS
-  description: |
-    З питань дистрибуції та публічних показів – Леонід Кантер leonid.kanter@gmail.com, +380 67 230 62 07. 
-    З питань підтримки дітей – Анна Демиденко. 
-    Сторінки у ФБ -  https://www.facebook.com/profile.php?id=274847276048233&ref=ts&fref=ts
-    https://www.facebook.com/profile.php?id=782610808490736&ref=ts&fref=ts 
+  description:
+    - З питань дистрибуції та публічних показів – Леонід Кантер <a href="mailto:leonid.kanter@gmail.com">leonid.kanter@gmail.com</a>, +380 67 230 62 07.
+    - –
+    - З питань підтримки дітей – Анна Демиденко. 
+    - –
+    - "Сторінки у ФБ:"
+    - <a href="https://www.facebook.com/profile.php?id=274847276048233">Добровольці-Божої-Чоти</a>
+    - <a href="https://www.facebook.com/profile.php?id=782610808490736">The-UKRAINIANS</a>
   main: HOME
