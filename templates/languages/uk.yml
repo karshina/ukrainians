@@ -73,16 +73,16 @@ about:
   prize: 
     - festival: 1. 13th GDAŃSK DOCFILM FESTIVAL, 2015, Польща - Приз глядацьких симпатій
     - festival: 2. Abuja International film and video festival, 2015, Нігерія - Найкращий документальний фільм
-    - festival: 3. "Cinema Vérité" Iran International Documentary Film Festival, 2015, Іран
-    - festival: 4. Plus Camerimage, 2015, Польща
-    - festival: 5. Cabo Verde International Film Festival, 2015, Кабо-Верде
-    - festival: 6. Delhi International Film festival, 2015, Індія
-    - festival: 7. 17th Madurai International Documentary and Short Film Festival 2015, Індія
-    - festival: 8. BUZZ CEE International Film Festival 2016, Румунія
-    - festival: 9. Перший Міжнародний фестиваль патріотичного документального кіно «КіноДок», 2016, Україна
-    - festival: 10. Премія НCКУ, 2016, Україна - Диплом Секретаріату Правління НСКУ «За громадянську та мистецьку мужність у фіксуванні та осмисленні подій російсько-української війни»
-    - festival: 11. CreActive International Open Film Festival (IOFF), 2016, Бангладеш
-    - festival: 12. Миколайчук-Фест, 2016, Україна - фільм-закриття
+    # - festival: 3. "Cinema Vérité" Iran International Documentary Film Festival, 2015, Іран
+    # - festival: 4. Plus Camerimage, 2015, Польща
+    # - festival: 5. Cabo Verde International Film Festival, 2015, Кабо-Верде
+    # - festival: 6. Delhi International Film festival, 2015, Індія
+    # - festival: 7. 17th Madurai International Documentary and Short Film Festival 2015, Індія
+    # - festival: 8. BUZZ CEE International Film Festival 2016, Румунія
+    # - festival: 9. Перший Міжнародний фестиваль патріотичного документального кіно «КіноДок», 2016, Україна
+    # - festival: 10. Премія НCКУ, 2016, Україна - Диплом Секретаріату Правління НСКУ «За громадянську та мистецьку мужність у фіксуванні та осмисленні подій російсько-української війни»
+    # - festival: 11. CreActive International Open Film Festival (IOFF), 2016, Бангладеш
+    # - festival: 12. Миколайчук-Фест, 2016, Україна - фільм-закриття
 
 contacts:
   headline: КОНТАКТИ

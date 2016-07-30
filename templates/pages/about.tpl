@@ -11,7 +11,7 @@
           {{/about.cast}}
           <h1 class="prizes">{{about.prizes}}</h1>
           {{#about.prize}}
-            <p>{{festival}}</p>
+            <p class="festival">{{festival}}</p>
           {{/about.prize}}
         </div>
         <p class="footer">
