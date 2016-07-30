@@ -14,7 +14,7 @@
             {{#transfer.payinfoUS}}
                 <p class="payinfo">{{line}}</p>
             {{/transfer.payinfoUS}}
-            <p class="download"><a href="#">{{transfer.download}}</a></p>
+            <p class="download"><a href="{{transfer.movie_url}}">{{transfer.download}}</a></p>
         </div>
         <p class="footer">
             <a href="index.html">{{transfer.main}}</a>

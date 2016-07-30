@@ -49,6 +49,7 @@ transfer:
     - line: Банк посередник - BNP PARIBAS U.S.A.-New York Branch, New York USA
     - line: SWIFT-код BNPAUS3N
   download: ЗАВАНТАЖИТИ ФІЛЬМ
+  movie_url: https://drive.google.com/open?id=0BzKnIGv-1QQdbm92MFNnTnlVT2c
   main: HOME
 
 about:
