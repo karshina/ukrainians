@@ -49,6 +49,7 @@ transfer:
     - line: Банк посередник - BNP PARIBAS U.S.A.-New York Branch, New York USA
     - line: SWIFT-код BNPAUS3N
   download: ЗАВАНТАЖИТИ ФІЛЬМ
+  movie_url: https://drive.google.com/open?id=0BzKnIGv-1QQdbm92MFNnTnlVT2c
   main: HOME
 
 about:
@@ -82,9 +83,12 @@ about:
 
 contacts:
   headline: CONTACTS
-  description: |
-    З питань дистрибуції та публічних показів – Леонід Кантер leonid.kanter@gmail.com, +380 67 230 62 07. 
-    З питань підтримки дітей – Анна Демиденко. 
-    Сторінки у ФБ -  https://www.facebook.com/profile.php?id=274847276048233&ref=ts&fref=ts
-    https://www.facebook.com/profile.php?id=782610808490736&ref=ts&fref=ts 
+  description:
+    - З питань дистрибуції та публічних показів – Леонід Кантер <a href="mailto:leonid.kanter@gmail.com">leonid.kanter@gmail.com</a>, +380 67 230 62 07.
+    - –
+    - З питань підтримки дітей – Анна Демиденко. 
+    - –
+    - "Сторінки у ФБ:"
+    - <a href="https://www.facebook.com/profile.php?id=274847276048233">Добровольці-Божої-Чоти</a>
+    - <a href="https://www.facebook.com/profile.php?id=782610808490736">The-UKRAINIANS</a>
   main: HOME
