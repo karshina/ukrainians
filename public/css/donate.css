@@ -24,7 +24,6 @@ body {
 }
 
 .lang a {
-    text-decoration: none;
     color: rgb(179, 179, 179);
     font-family: Helvetica;
     font-size: 14px;
@@ -32,14 +31,7 @@ body {
     color: #fff;
     opacity: 0.5;
     text-shadow: 0 0 3px black;
-}
-
-.lang span {
-    color: #fff;
-    opacity: 0.5;
-    font-family: Helvetica;
-    font-size: 14px;
-    font-weight: 200;
+    margin: 0 2px;
 }
 
 .lang a:hover {
@@ -62,7 +54,7 @@ body {
     font-family: 'Futura W01 Book',sans-serif;
     letter-spacing: .2em;
     font-weight: 400;
-    padding: 8vh 0 6vh 0;
+    padding: 3vh 0 4vh 0;
     color: #fff;
     text-align: center;
     margin-top: 0px;
@@ -76,13 +68,17 @@ body {
     line-height: 1.5;
     margin: 0 9px 0 0;
     padding: 0 5%;
-    text-align: justify;
+    text-align: initial;
     font-family: Helvetica;
     font-style: normal;
     font-variant: normal;
     font-weight: 300;
     letter-spacing: 1px;
     text-shadow: 0 0 3px black;
+}
+
+q {
+    quotes: "\00ab" "\00bb";
 }
 
 .intro p.name {
@@ -196,7 +192,7 @@ p.footer a:visited {
 
     #headline {
         font-size: 30px;
-        letter-spacing: .2em;
+        letter-spacing: .1em;
         line-height: 1.5;
     }
 
@@ -221,7 +217,7 @@ p.footer a:visited {
 
     #headline {
         font-size: 25px;
-        letter-spacing: .2em;
+        letter-spacing: .1em;
         line-height: 1.4;
     }
 

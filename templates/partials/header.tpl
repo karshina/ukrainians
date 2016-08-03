@@ -4,6 +4,7 @@
     <title>{{title}}</title>
     <meta name="description" content="{{content}}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/{{pageName}}.css">

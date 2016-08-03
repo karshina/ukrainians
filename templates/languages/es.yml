@@ -17,7 +17,7 @@ index:
 
 donate:
   headline: CONTRIBUCIONES CARITATIVAS
-  description: “Si me hubiera muerto en esta guerra, espero que mis colegas se ocuparán de mis hijos. No me refiero a alimentarlos o a vestirlos, sino a darles una buena educación, un sostén. Es nuestro deber ayudar a aquellos niños cuyos padres murieron por Ucrania".
+  description: Si me hubiera muerto en esta guerra, espero que mis colegas se ocuparán de mis hijos. No me refiero a alimentarlos o a vestirlos, sino a darles una buena educación, un sostén. Es nuestro deber ayudar a aquellos niños cuyos padres murieron por Ucrania
   name: LEONID KANTER
 
   footer:
@@ -32,8 +32,7 @@ transfer:
     Просимо вас перерахувати доброчинний внесок - це допоможе отримати освіту дітям, батьки яких загинули боронячи свій край. Якщо у вас немає такої можливості, ви можете скачати фільм безкоштовно. Дякуємо за розуміння і гарного перегляду. Слава Україні!
   payment: РЕКВІЗИТИ ДЛЯ ПОЖЕРТВ У ГРИВНЯХ
   payinfo: 
-    - line: УкрСиббанк
-    - line: МФО 351005, ЄДРПОУ 40098921
+    - line: УкрСиббанк, МФО 351005, ЄДРПОУ 40098921
     - line: № рахунку 26008590058400
   paymentUS: РЕКВІЗИТИ ДЛЯ ПОЖЕРТВ У ДОЛАРАХ США
   payinfoUS:
@@ -47,7 +46,7 @@ transfer:
     - line: SWIFT-код KHABUA2K
     - line: Банк посередник - BNP PARIBAS U.S.A.-New York Branch, New York USA
     - line: SWIFT-код BNPAUS3N
-  download: ЗАВАНТАЖИТИ ФІЛЬМ
+  download: ДИВИТИСЬ ФІЛЬМ
   movie_url: https://drive.google.com/open?id=0B6APPfmrcqyfU2xkZ1BjMlJuYU0
   main: HOME
 
@@ -83,13 +82,10 @@ about:
 contacts:
   headline: CONTACTS
   description:
-    - Дистрибуція та публічні покази за кордоном – <a href="mailto:leonid.kanter@gmail.com">leonid.kanter@gmail.com</a>, +380 67 230 62 07.
-    - –
-    - Дистрибуція та публічні покази в Україні – <a href="mailto:union-tyres@i.ua">leonid.kanter@gmail.com</a>, +380 67 548 25 14.
-    - –
-    - З питань підтримки дітей – Анна Демиденко - +380 96 723 12 02. 
-    - –
-    - "Сторінки у ФБ:"
-    - <a href="https://www.facebook.com/profile.php?id=274847276048233">Добровольці-Божої-Чоти</a>
-    - <a href="https://www.facebook.com/profile.php?id=782610808490736">The-UKRAINIANS</a>
+    - Дистрибуція та публічні покази за кордоном – <a href="mailto:leonid.kanter@gmail.com">leonid.kanter@gmail.com</a>, <a href="tel:+380672306207">+380 67 230 62 07</a>.
+    - Дистрибуція та публічні покази в Україні – <a href="mailto:union-tyres@i.ua">union-tyres@i.ua</a>, <a href="tel:+380443532359">+380 44 353 23 59</a>, <a href="tel:+380675482514">+380 67 548 25 14</a>.
+    - З питань підтримки дітей – Анна Демиденко – <a href="mailto:demidenko.ganna@gmail.com">demidenko.ganna@gmail.com</a>, <a href="tel:+380967231202">+380 96 723 12 02</a>. 
+    - <strong>Сторінки у Facebook:<strong>
+    - <a href="https://www.facebook.com/profile.php?id=274847276048233">Добровольці Божої Чоти</a>
+    - <a href="https://www.facebook.com/profile.php?id=782610808490736">The UKRAINIANS</a>
   main: HOME

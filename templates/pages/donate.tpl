@@ -5,7 +5,7 @@
         {{> languages}}
         <div class="intro">
           <h1 id="headline">{{donate.headline}}</h1>
-          <p>{{donate.description}}</p>
+          <p><q>{{donate.description}}</q></p>
           <p class="name">{{donate.name}}</p>
         </div>
         <p class="footer">
