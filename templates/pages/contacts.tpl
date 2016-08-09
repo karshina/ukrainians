@@ -10,7 +10,7 @@
           {{/contacts.description}}
         </div>
         <p class="footer">
-            <a href="index.html">{{contacts.main}}</a>
+            <a href="index{{langSuffix}}.html">{{contacts.main}}</a>
         </p>
 
         {{>js}}

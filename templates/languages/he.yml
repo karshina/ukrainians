@@ -22,9 +22,9 @@ donate:
   name: ליאוניד קנטר
 
   footer:
-    - link: transfer.html
+    - link: transfer_he.html
       text: לתרום להסכלת הילדים
-    - link: index.html
+    - link: index_he.html
       text: עמוד הבית
 
 transfer:
@@ -79,6 +79,7 @@ about:
     # - festival: 10. Премія НCКУ, 2016, Україна - Диплом Секретаріату Правління НСКУ «За громадянську та мистецьку мужність у фіксуванні та осмисленні подій російсько-української війни»
     # - festival: 11. CreActive International Open Film Festival (IOFF), 2016, Бангладеш
     # - festival: 12. Миколайчук-Фест, 2016, Україна - фільм-закриття
+  main: HOME
 
 contacts:
   headline: CONTACTS

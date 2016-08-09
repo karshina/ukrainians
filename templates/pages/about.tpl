@@ -15,7 +15,7 @@
           {{/about.prize}}
         </div>
         <p class="footer">
-            <a href="index.html">НА ГОЛОВНУ</a>
+            <a href="index{{langSuffix}}.html">{{about.main}}</a>
         </p>
 
         {{>js}}

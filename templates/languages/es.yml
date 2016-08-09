@@ -21,9 +21,9 @@ donate:
   name: LEONID KANTER
 
   footer:
-    - link: transfer.html
+    - link: transfer_es.html
       text: TRANSFER FUNDS TO CHILDREN'S EDUCATIONS
-    - link: index.html
+    - link: index_es.html
       text: HOME
 
 transfer:
@@ -78,6 +78,7 @@ about:
     # - festival: 10. Премія НCКУ, 2016, Україна - Диплом Секретаріату Правління НСКУ «За громадянську та мистецьку мужність у фіксуванні та осмисленні подій російсько-української війни»
     # - festival: 11. CreActive International Open Film Festival (IOFF), 2016, Бангладеш
     # - festival: 12. Миколайчук-Фест, 2016, Україна - фільм-закриття
+  main: HOME
 
 contacts:
   headline: CONTACTS

@@ -3,7 +3,7 @@ title: OCHOTNICY BOSKIEGO ZASTĘPU
 index:
   content: Ten film - opowieść o stworzeniu nowej armii ukraińskiej. Ludzie zbuntowali się przeciwko przestępczemu rządowi - wasali Imperiium Rosyjskiego. Rozwścieczony kolonizator rzuca na Ukrainę swoje wójsko i pod lufami automatów przechwytuje część terytorium. Ale patrioci-ochotnicy nie zgadzają się, aby oddć jej wrogowi. Bohaterska obrona lotniska w Doniecku trwała 242 dni.
   headline: OCHOTNICY BOSKIEGO ZASTĘPU
-  description: Документальний фільм про те, що змушує добровольців іти на війну.
+  description: Film dokumentalny o tym, co zmusza ochotników iść na wojne.
   download: DOWNLOAD MOVIE
   trailer: WATCH THE TRAILER
 
@@ -21,53 +21,53 @@ donate:
   name: LEONID KANTER
 
   footer:
-    - link: transfer.html
+    - link: transfer_pl.html
       text: PRZELICZYĆ KOSZTY NA KSZTAŁCENIE DZIECI
-    - link: index.html
+    - link: index_pl.html
       text: STRONA GŁÓWNA
 
 transfer:
-  headline: TRANSFER FUNDS
+  headline: PSZELICZYĆ KOSZTY NA KSZTAŁCENIE DZIECI
   description: |
-    Просимо вас перерахувати доброчинний внесок - це допоможе отримати освіту дітям, батьки яких загинули боронячи свій край. Якщо у вас немає такої можливості, ви можете скачати фільм безкоштовно. Дякуємо за розуміння і гарного перегляду. Слава Україні!
-  payment: РЕКВІЗИТИ ДЛЯ ПОЖЕРТВ У ГРИВНЯХ
+    Prosimy Was przeliczyć dobrowolny wniosek  - to pomoże wykształcić dzieci, rodzice których zginęli w obronię Ojczyzny. Jeżeli nie macie takej możliwości – możecie skopjować  film bezplatno. Dziękujemy za wyrozumiałość i pięknego przeglądu. Slawa Ukraini!
+  payment: REKWIZYTY DLA OFIAR W GRYWNACH
   payinfo: 
     - line: УкрСиббанк, МФО 351005, ЄДРПОУ 40098921
-    - line: № рахунку 26008590058400
-  paymentUS: РЕКВІЗИТИ ДЛЯ ПОЖЕРТВ У ДОЛАРАХ США
+    - line: P/p 26008590058400
+  paymentUS: REKWIZYTY DLA OFIAR W DOLARACH USA
   payinfoUS:
-    - line: Найменування юридичної особи "Служба соціального захисту НВР "Правий Сектор"
-    - line: Код ЄДПРОУ  40098921, валюта рахунку USD
-    - line: № рахунку 26008590058400
-    - line: Назва банку - Публічне акціонерне товариство "УкрСиббанк", МФО 351005
-    - line: Банк бенефіціара (АТ "УкрСиббанк")
+    - line: Imie osoby prawniczej „Służba socialnej ochrony HBP „Prawyj Sektor”
+    - line: Код ЄДПРОУ  40098921, waluta rachunku USD
+    - line: P/p 26008590058400
+    - line: Nazwa Banku – Publiczne Aukcijne Towarzystwo „Укрсіббанк”, МФО 351005
+    - line: Bank Dobroczynny (АТ "УкрСиббанк")
     - line: 020061151200138
-    - line: UKRSIBBANK, MOSKOVSKY AVE 60, KHARKIV, UKRAINE
-    - line: SWIFT-код KHABUA2K
-    - line: Банк посередник - BNP PARIBAS U.S.A.-New York Branch, New York USA
-    - line: SWIFT-код BNPAUS3N
+    - line: UKRSIBBANK, 60, MOSKOVSKIY AVE., KHARKIV, UKRAINE
+    - line: SWIFT-kod KHABUA2K
+    - line: Bank pośrednik - BNP PARIBAS U.S.A.-New York Branch, New York USA
+    - line: SWIFT-kod BNPAUS3N
   download: ДИВИТИСЬ ФІЛЬМ
   movie_url: https://drive.google.com/open?id=0B2SCjeZluIq-U3NqLUc5TmpIUFU
-  main: HOME
+  main: STRONA GŁÓWNA
 
 about:
   description: Ten film - opowieść o stworzeniu nowej armii ukraińskiej. Ludzie zbuntowali się przeciwko przestępczemu rządowi - wasali Imperiium Rosyjskiego. Rozwścieczony kolonizator rzuca na Ukrainę swoje wójsko i pod lufami automatów przechwytuje część terytorium. Ale patrioci-ochotnicy nie zgadzają się, aby oddć jej wrogowi. Bohaterska obrona lotniska w Doniecku trwała 242 dni.
-  headline: НАД ФІЛЬМОМ ПРАЦЮВАЛИ
+  headline: NAD FILMEM PRACOVALI
   cast:
-    - profession: Режисери
-      name: Леонід Кантер, Іван Ясній
-    - profession: Оператори
-      name: Іван Ясній, Леонід Кантер  
-    - profession: Музика
-      name: Олексій Бик, "Кому Вниз"
-    - profession: Звук
-      name: Олег Фалєєв, Артем Мостовий
-    - profession: Продюсер
-      name: Леонід Кантер
-  prizes: НАГОРОДИ
+    - profession: Reżysery
+      name: Leonid Kanter, Ivan Jasnij
+    - profession: Operator filmowy
+      name: Ivan Jasnij, Leonid Kanter  
+    - profession: Muzyka
+      name: Oleksij Byk, "Komu wnyz"
+    - profession: Dzwiek
+      name: Oleg Faliejew, Artem Mostowyj
+    - profession: Producent
+      name: Leonid Kanter
+  prizes: NAGRODY
   prize: 
-    - festival: 1. Poland - 13th GDAŃSK DOCFILM FESTIVAL 2015 (Audience award).
-    - festival: 2. Nigeria - Abuja International film and video festival 2015 (Best documentary film)
+    - festival: 1. 13-ty Gdanśki Docfilm Festywal, 2015, Polska. Nagroda widzów.
+    - festival: 2. Nigeria – Abuja Mędzynarodowy filmowy i wideo Festiwal, 2015 (Najlepszy film dokumentalny).
     # - festival: 3. "Cinema Vérité" Iran International Documentary Film Festival, 2015, Іран
     # - festival: 4. Plus Camerimage, 2015, Польща
     # - festival: 5. Cabo Verde International Film Festival, 2015, Кабо-Верде
@@ -78,14 +78,15 @@ about:
     # - festival: 10. Премія НCКУ, 2016, Україна - Диплом Секретаріату Правління НСКУ «За громадянську та мистецьку мужність у фіксуванні та осмисленні подій російсько-української війни»
     # - festival: 11. CreActive International Open Film Festival (IOFF), 2016, Бангладеш
     # - festival: 12. Миколайчук-Фест, 2016, Україна - фільм-закриття
+  main: STRONA GŁÓWNA
 
 contacts:
-  headline: CONTACTS
+  headline: KONTAKTY
   description:
-    - Дистрибуція та публічні покази за кордоном – <a href="mailto:leonid.kanter@gmail.com">leonid.kanter@gmail.com</a>, <a href="tel:+380672306207">+380 67 230 62 07</a>.
-    - Дистрибуція та публічні покази в Україні – <a href="mailto:union-tyres@i.ua">union-tyres@i.ua</a>, <a href="tel:+380443532359">+380 44 353 23 59</a>, <a href="tel:+380675482514">+380 67 548 25 14</a>.
-    - З питань підтримки дітей – Анна Демиденко – <a href="mailto:demidenko.ganna@gmail.com">demidenko.ganna@gmail.com</a>, <a href="tel:+380967231202">+380 96 723 12 02</a>. 
-    - <strong>Сторінки у Facebook:<strong>
-    - <a href="https://www.facebook.com/profile.php?id=274847276048233">Добровольці Божої Чоти</a>
+    - Dystrybucja I publiczne pokazy za granicą – <a href="mailto:leonid.kanter@gmail.com">leonid.kanter@gmail.com</a>, <a href="tel:+380672306207">+380 67 230 62 07</a>.
+    - Dystrybucja I publiczne pokazy w Ukraini – <a href="mailto:union-tyres@i.ua">union-tyres@i.ua</a>, <a href="tel:+380443532359">+380 44 353 23 59</a>, <a href="tel:+380675482514">+380 67 548 25 14</a>.
+    - Po pytaniu wsparcia dcieciom – Anna Demydenko – <a href="mailto:demidenko.ganna@gmail.com">demidenko.ganna@gmail.com</a>, <a href="tel:+380967231202">+380 96 723 12 02</a>. 
+    - <strong>Strony w Facebook:<strong>
+    - <a href="https://www.facebook.com/profile.php?id=274847276048233">Ochotnicy Boskiego Zastȩpu</a>
     - <a href="https://www.facebook.com/profile.php?id=782610808490736">The UKRAINIANS</a>
-  main: HOME
+  main: STRONA GŁÓWNA
