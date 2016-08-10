@@ -3,7 +3,7 @@ title: האוקראינים
 index: 
   content: הסרט הזה הוא על ההיסטוריה של יצירת הצבא האוקראיני החדש. העם התמרד נגד ממשלת הפשע שלו – צמיתי האימפריה הרוסית. קולוניאליסט זועם שולח את צבאו לאוקראינה ותחת רובים כובש חלק משטחיה, אך פטריוטים מתנדבים לא מוכנים לתת אותו לאויב. הגנת שדה תעופה דוניצק נמשכה 242 ימים.
   headline: האוקראינים
-  description: Документальний фільм про те, що змушує добровольців іти на війну.
+  description: סרט דוקומנטרי על מה שגורם למתנדבים ללכת למלחמה
   download: DOWNLOAD MOVIE
   trailer: WATCH THE TRAILER
 
@@ -28,14 +28,14 @@ donate:
       text: עמוד הבית
 
 transfer:
-  headline: TRANSFER FUNDS
+  headline: לתרום להסכלת הילדים
   description: |
-    Просимо вас перерахувати доброчинний внесок - це допоможе отримати освіту дітям, батьки яких загинули боронячи свій край. Якщо у вас немає такої можливості, ви можете скачати фільм безкоштовно. Дякуємо за розуміння і гарного перегляду. Слава Україні!
+    אנו מבקשום מכם לתרום כסף – זה יעזור לקבל הסכלה לילדים שההורים שלהם נפלו בקרב. אם אין באשרותכם לתרום, אתם יכולים להוריד סרט חינם. תודה על ההבנה וצפיה מהנה. גאולה לאוקראינה!
   payment: РЕКВІЗИТИ ДЛЯ ПОЖЕРТВ У ГРИВНЯХ
   payinfo: 
     - line: УкрСиббанк, МФО 351005, ЄДРПОУ 40098921
     - line: № рахунку 26008590058400
-  paymentUS: РЕКВІЗИТИ ДЛЯ ПОЖЕРТВ У ДОЛАРАХ США
+  paymentUS: פירטי הבנק עבור תרומות  בדולרים של ארה"ב
   payinfoUS:
     - line: Найменування юридичної особи "Служба соціального захисту НВР "Правий Сектор"
     - line: Код ЄДПРОУ  40098921, валюта рахунку USD
@@ -47,28 +47,28 @@ transfer:
     - line: SWIFT-код KHABUA2K
     - line: Банк посередник - BNP PARIBAS U.S.A.-New York Branch, New York USA
     - line: SWIFT-код BNPAUS3N
-  download: ДИВИТИСЬ ФІЛЬМ
+  download: לצפות בסרט
   movie_url: https://drive.google.com/open?id=0B4IUZa0AvqR6aElSZFdNYnpmRzg
-  main: HOME
+  main: עמוד הבית
 
 about:
   description: הסרט הזה הוא על ההיסטוריה של יצירת הצבא האוקראיני החדש. העם התמרד נגד ממשלת הפשע שלו – צמיתי האימפריה הרוסית. קולוניאליסט זועם שולח את צבאו לאוקראינה ותחת רובים כובש חלק משטחיה, אך פטריוטים מתנדבים לא מוכנים לתת אותו לאויב. הגנת שדה תעופה דוניצק נמשכה 242 ימים.
-  headline: НАД ФІЛЬМОМ ПРАЦЮВАЛИ
+  headline: הפקה
   cast:
-    - profession: Режисери
-      name: Леонід Кантер, Іван Ясній
-    - profession: Оператори
-      name: Іван Ясній, Леонід Кантер  
-    - profession: Музика
-      name: Олексій Бик, "Кому Вниз"
-    - profession: Звук
-      name: Олег Фалєєв, Артем Мостовий
-    - profession: Продюсер
-      name: Леонід Кантер
-  prizes: НАГОРОДИ
+    - profession: בימוי
+      name: לאוניד קנטר, איוון יאסניי
+    - profession: וצילום
+      name: לאוניד קנטר, איוון יאסניי  
+    - profession: מוסיקה
+      name: אולכסיי ביק, "קומו וניז"
+    - profession: מקליט
+      name: אולג פאלייב, ארטם מוסטוביי
+    - profession: מפיק
+      name: לאוניד קנטר
+  prizes: פרסים
   prize: 
-    - festival: 1. Poland - 13th GDAŃSK DOCFILM FESTIVAL 2015 (Audience award).
-    - festival: 2. Nigeria - Abuja International film and video festival 2015 (Best documentary film)
+    - festival: פולין – גדנסק דוקפילם פסטיבל 13 שנת 2015 (פרס אהבת קהל)
+    - festival: ניגריה – אבוג'ה פסטיבל סרטים ווידאס 2015 (סרט דוקונמטרי הטוב ביותר)
     # - festival: 3. "Cinema Vérité" Iran International Documentary Film Festival, 2015, Іран
     # - festival: 4. Plus Camerimage, 2015, Польща
     # - festival: 5. Cabo Verde International Film Festival, 2015, Кабо-Верде
@@ -79,15 +79,15 @@ about:
     # - festival: 10. Премія НCКУ, 2016, Україна - Диплом Секретаріату Правління НСКУ «За громадянську та мистецьку мужність у фіксуванні та осмисленні подій російсько-української війни»
     # - festival: 11. CreActive International Open Film Festival (IOFF), 2016, Бангладеш
     # - festival: 12. Миколайчук-Фест, 2016, Україна - фільм-закриття
-  main: HOME
+  main: עמוד הבית
 
 contacts:
-  headline: CONTACTS
+  headline: צור קשר
   description:
-    - Дистрибуція та публічні покази за кордоном – <a href="mailto:leonid.kanter@gmail.com">leonid.kanter@gmail.com</a>, <a href="tel:+380672306207">+380 67 230 62 07</a>.
-    - Дистрибуція та публічні покази в Україні – <a href="mailto:union-tyres@i.ua">union-tyres@i.ua</a>, <a href="tel:+380443532359">+380 44 353 23 59</a>, <a href="tel:+380675482514">+380 67 548 25 14</a>.
-    - З питань підтримки дітей – Анна Демиденко – <a href="mailto:demidenko.ganna@gmail.com">demidenko.ganna@gmail.com</a>, <a href="tel:+380967231202">+380 96 723 12 02</a>. 
-    - <strong>Сторінки у Facebook:<strong>
+    - הפצה והקרנות בחו"ל - <a href="mailto:leonid.kanter@gmail.com">leonid.kanter@gmail.com</a>, <a href="tel:+380672306207">+380 67 230 62 07</a>.
+    - הפצה והקרנות אוקראינה – <a href="mailto:union-tyres@i.ua">union-tyres@i.ua</a>, <a href="tel:+380443532359">+380 44 353 23 59</a>, <a href="tel:+380675482514">+380 67 548 25 14</a>.
+    - לתמיכה בילדים – אנה דמידנקו - <a href="mailto:demidenko.ganna@gmail.com">demidenko.ganna@gmail.com</a>, <a href="tel:+380967231202">+380 96 723 12 02</a>. 
+    - <strong>עמודים בפייסבוק<strong>
     - <a href="https://www.facebook.com/profile.php?id=274847276048233">Добровольці Божої Чоти</a>
     - <a href="https://www.facebook.com/profile.php?id=782610808490736">The UKRAINIANS</a>
-  main: HOME
+  main: עמוד הבית
