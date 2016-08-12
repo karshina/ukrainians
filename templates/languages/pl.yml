@@ -4,8 +4,8 @@ index:
   content: Ten film - opowieść o stworzeniu nowej armii ukraińskiej. Ludzie zbuntowali się przeciwko przestępczemu rządowi - wasali Imperiium Rosyjskiego. Rozwścieczony kolonizator rzuca na Ukrainę swoje wójsko i pod lufami automatów przechwytuje część terytorium. Ale patrioci-ochotnicy nie zgadzają się, aby oddć jej wrogowi. Bohaterska obrona lotniska w Doniecku trwała 242 dni.
   headline: OCHOTNICY BOSKIEGO ZASTĘPU
   description: Film dokumentalny o tym, co zmusza ochotników iść na wojne.
-  download: DOWNLOAD MOVIE
-  trailer: WATCH THE TRAILER
+  download: ZAŁADOWAĆ FILM
+  trailer: OBEJRZYĆ TREJLER
 
   footer:
     - link: about_pl.html
@@ -46,7 +46,7 @@ transfer:
     - line: SWIFT-kod KHABUA2K
     - line: Bank pośrednik - BNP PARIBAS U.S.A.-New York Branch, New York USA
     - line: SWIFT-kod BNPAUS3N
-  download: ДИВИТИСЬ ФІЛЬМ
+  download: OBEJRZYĆ FILM
   movie_url: https://drive.google.com/open?id=0B2SCjeZluIq-U3NqLUc5TmpIUFU
   main: STRONA GŁÓWNA
 

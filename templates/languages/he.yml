@@ -31,22 +31,22 @@ transfer:
   headline: לתרום להסכלת הילדים
   description: |
     אנו מבקשום מכם לתרום כסף – זה יעזור לקבל הסכלה לילדים שההורים שלהם נפלו בקרב. אם אין באשרותכם לתרום, אתם יכולים להוריד סרט חינם. תודה על ההבנה וצפיה מהנה. גאולה לאוקראינה!
-  payment: РЕКВІЗИТИ ДЛЯ ПОЖЕРТВ У ГРИВНЯХ
+  payment: DETAILS FOR DONATIONS IN UAH
   payinfo: 
-    - line: УкрСиббанк, МФО 351005, ЄДРПОУ 40098921
-    - line: № рахунку 26008590058400
+    - line: UkrSibBank, MFO 351005, EDRPOU 40098921
+    - line: Account Number 26008590058400
   paymentUS: פירטי הבנק עבור תרומות  בדולרים של ארה"ב
   payinfoUS:
-    - line: Найменування юридичної особи "Служба соціального захисту НВР "Правий Сектор"
-    - line: Код ЄДПРОУ  40098921, валюта рахунку USD
-    - line: № рахунку 26008590058400
-    - line: Назва банку - Публічне акціонерне товариство "УкрСиббанк", МФО 351005
-    - line: Банк бенефіціара (АТ "УкрСиббанк")
+    - line: Name of entity "Services of social security NVR Right Sector"
+    - line: Code EDRPOU 40098921, in USD
+    - line: Account Number 26008590058400
+    - line: Bank Name - Public Company "UkrSibBank", MFO 351005
+    - line: Beneficiary Bank (AT "UkrSibBank")
     - line: 020061151200138
     - line: UKRSIBBANK, MOSKOVSKY AVE 60, KHARKIV, UKRAINE
-    - line: SWIFT-код KHABUA2K
-    - line: Банк посередник - BNP PARIBAS U.S.A.-New York Branch, New York USA
-    - line: SWIFT-код BNPAUS3N
+    - line: SWIFT-code KHABUA2K
+    - line: Bank agency - BNP PARIBAS U.S.A.-New York Branch, New York USA
+    - line: SWIFT-code BNPAUS3N
   download: לצפות בסרט
   movie_url: https://drive.google.com/open?id=0B4IUZa0AvqR6aElSZFdNYnpmRzg
   main: עמוד הבית
