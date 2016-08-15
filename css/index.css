@@ -29,7 +29,7 @@ body {
     font-size: 14px;
     font-weight: 200;
     color: #fff;
-    opacity: 0.5;
+    opacity: 0.7;
     text-shadow: 0 0 3px black;
     margin: 0 2px;
 }
@@ -52,12 +52,12 @@ body {
 #headline {
     font-size: 32px;
     font-family: 'Futura W01 Book',sans-serif;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     font-weight: 400;
     padding: 8vh 0 8vh 0;
     color: #fff;
     text-align: center;
-    margin-top: 0px;
+    margin: 0px;
     line-height: 1.6;
 }
 
@@ -66,8 +66,8 @@ body {
     color: #fff;
     font-size: 14px;
     line-height: 1.5;
-    margin: 0 9px 0 0;
-    padding: 0 5%;
+    margin: 0;
+    padding: 0 10%;
     text-align: initial;
     font-family: Helvetica;
     font-style: normal;
@@ -79,7 +79,7 @@ body {
 
 p.download {
     text-align: center;
-    margin-top: 6vh;
+    margin-top: 9vh;
 }
 
 p.download a {
@@ -89,14 +89,8 @@ p.download a {
     font-weight: 200;
     text-decoration: none;
     letter-spacing: 2px;
-    border-bottom: solid 1px #fff;
-    background-color: rgba(255,255,255,0);
-    border-color: rgba(255,255,255,.4);
-    color: #fff;
-    height: 18px;
-    padding: 0;
-    outline: 0;
-    display: inline-block;
+    padding: 14px;
+    border: solid 2px #fff;
     opacity: 0.8;
     text-shadow: 0 0 3px black;
 }
@@ -165,22 +159,18 @@ p.download a:visited {
     line-height: 1.6;
 }
 
-.stroke-bg {
-  stroke: #4c4c4c;
-}
-
 .stroke {
-  stroke-dasharray: 145;
-  stroke-dashoffset: 145;
-  animation: dash 15s linear infinite paused;
+    stroke-dasharray: 145;
+    stroke-dashoffset: 145;
+    animation: dash 12s linear 1 paused;
 }
 
 @keyframes dash {
-  from {
-    stroke-dashoffset: 0;
-  }
-  to {
-    stroke-dashoffset: 145;
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: 145;
   }
 }
 

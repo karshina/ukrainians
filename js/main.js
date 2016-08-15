@@ -7,11 +7,12 @@ $(document).ready(function($) {
 	var $intro = $('body .intro')
 	var $footer = $('body .footer')
   var $icon = $('body .icon')
+  var $strokebg = $('body .stroke-bg')
 	var player = {}
 
   var tag = document.createElement('script');
 
-  tag.src = "https://www.youtube.com/iframe_api";
+  tag.src = 'https://www.youtube.com/iframe_api';
   var firstScriptTag = document.getElementsByTagName('script')[0];
   firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
@@ -24,7 +25,12 @@ $(document).ready(function($) {
   stroke.style.strokeDashoffset = length;
 
   var animationDiv = document.querySelector('.stroke');
-  animationDiv.style.webkitAnimationPlayState = "running";
+  animationDiv.style.webkitAnimationPlayState = 'running';
+
+  $strokebg.css('stroke', '#4c4c4c');
+  setTimeout(function(){
+    $strokebg.css('stroke', 'white');
+  }, 12200);
 
   function retinaSrc(src) {
     if (window.Retina.isRetina()) {
