@@ -54,13 +54,12 @@ body {
 #headline {
     font-size: 22px;
     font-family: 'Futura W01 Book',sans-serif;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     font-weight: 400;
     padding: 5vh 0 2vh 0;
     color: #fff;
     text-align: center;
     margin-top: 0px;
-    text-shadow: 0 0 3px black;
     line-height: 1.6;
 }
 
@@ -111,17 +110,14 @@ body {
 }
 
 .intro p.download a {
-    margin: 0 8vw;
+    margin: 0 auto;
+    color: #fff;
+    font-family: Helvetica;
+    font-weight: 200;
     text-decoration: none;
     letter-spacing: 2px;
-    border-bottom: solid 1px #fff;
-    background-color: rgba(255,255,255,0);
-    border-color: rgba(255,255,255,.4);
-    color: #fff;
-    height: 18px;
-    padding: 0;
-    outline: 0;
-    display: inline-block;
+    padding: 14px;
+    border: solid 2px #fff;
     opacity: 0.8;
     text-shadow: 0 0 3px black;
 }
