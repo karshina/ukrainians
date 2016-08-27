@@ -314,13 +314,13 @@ p.footer a:visited {
 
     p.footer {
         height: 3vw;
-        font-size: 24px;
+        font-size: 22px;
     }
 
     p.footer a {
         margin: 0px 6vw;
         border-bottom: solid 2px #fff;
-        height: 34px;
+        height: 24px;
     }
 }
 
