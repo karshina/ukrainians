@@ -33,7 +33,9 @@ transfer:
     אנו מבקשום מכם לתרום כסף – זה יעזור לקבל הסכלה לילדים שההורים שלהם נפלו בקרב. אם אין באשרותכם לתרום, אתם יכולים להוריד סרט חינם. תודה על ההבנה וצפיה מהנה. גאולה לאוקראינה!
   payment: DETAILS FOR DONATIONS IN UAH
   payinfo: 
-    - line: UkrSibBank, MFO 351005, EDRPOU 40098921
+    - line: UkrSibBank
+    - line: MFO 351005
+    - line: EDRPOU 40098921
     - line: Account Number 26008590058400
   paymentUS: פירטי הבנק עבור תרומות  בדולרים של ארה"ב
   payinfoUS:
@@ -41,8 +43,7 @@ transfer:
     - line: Code EDRPOU 40098921, in USD
     - line: Account Number 26008590058400
     - line: Bank Name - Public Company "UkrSibBank", MFO 351005
-    - line: Beneficiary Bank (AT "UkrSibBank")
-    - line: 020061151200138
+    - line: Beneficiary Bank (AT "UkrSibBank"), 020061151200138
     - line: UKRSIBBANK, MOSKOVSKY AVE 60, KHARKIV, UKRAINE
     - line: SWIFT-code KHABUA2K
     - line: Bank agency - BNP PARIBAS U.S.A.-New York Branch, New York USA

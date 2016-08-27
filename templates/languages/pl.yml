@@ -32,7 +32,9 @@ transfer:
     Prosimy Was przeliczyć dobrowolny wniosek  - to pomoże wykształcić dzieci, rodzice których zginęli w obronię Ojczyzny. Jeżeli nie macie takej możliwości – możecie skopjować  film bezplatno. Dziękujemy za wyrozumiałość i pięknego przeglądu. Slawa Ukraini!
   payment: REKWIZYTY DLA OFIAR W GRYWNACH
   payinfo: 
-    - line: УкрСиббанк, МФО 351005, ЄДРПОУ 40098921
+    - line: УкрСиббанк
+    - line: МФО 351005
+    - line: ЄДРПОУ 40098921
     - line: P/p 26008590058400
   paymentUS: REKWIZYTY DLA OFIAR W DOLARACH USA
   payinfoUS:
@@ -40,8 +42,7 @@ transfer:
     - line: Код ЄДПРОУ  40098921, waluta rachunku USD
     - line: P/p 26008590058400
     - line: Nazwa Banku – Publiczne Aukcijne Towarzystwo „Укрсіббанк”, МФО 351005
-    - line: Bank Dobroczynny (АТ "УкрСиббанк")
-    - line: 020061151200138
+    - line: Bank Dobroczynny (АТ "УкрСиббанк"), 020061151200138
     - line: UKRSIBBANK, 60, MOSKOVSKIY AVE., KHARKIV, UKRAINE
     - line: SWIFT-kod KHABUA2K
     - line: Bank pośrednik - BNP PARIBAS U.S.A.-New York Branch, New York USA

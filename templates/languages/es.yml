@@ -32,7 +32,9 @@ transfer:
     Donations are much appreciated and will benefit children whose parents have died protecting their land. If you choose to not donate, you can download the movie for free. Thank you for your understanding and enjoy the viewing. Glory of Ukraine!
   payment: DETAILS FOR DONATIONS IN UAH
   payinfo: 
-    - line: UkrSibBank, MFO 351005, EDRPOU 40098921
+    - line: UkrSibBank
+    - line: MFO 351005
+    - line: EDRPOU 40098921
     - line: Account Number 26008590058400
   paymentUS: DETAILS FOR DONATIONS in US dollars
   payinfoUS:
@@ -40,8 +42,7 @@ transfer:
     - line: Code EDRPOU 40098921, in USD
     - line: Account Number 26008590058400
     - line: Bank Name - Public Company "UkrSibBank", MFO 351005
-    - line: Beneficiary Bank (AT "UkrSibBank")
-    - line: 020061151200138
+    - line: Beneficiary Bank (AT "UkrSibBank"), 020061151200138
     - line: UKRSIBBANK, MOSKOVSKY AVE 60, KHARKIV, UKRAINE
     - line: SWIFT-code KHABUA2K
     - line: Bank agency - BNP PARIBAS U.S.A.-New York Branch, New York USA

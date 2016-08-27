@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{langName}}">
+<html lang="{{langName}}" prefix="og: http://ogp.me/ns#">
     {{> header}}
     <body>
         {{> languages}}
