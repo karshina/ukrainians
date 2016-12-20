@@ -17,10 +17,12 @@
                     <p class="headline1">{{transfer.paymentUS}}</p>
                     {{#transfer.payinfoUS}}
                     <p class="payinfo">{{line}}</p>
-                    {{/transfer.payinfoUS}}    
+                    {{/transfer.payinfoUS}}
                 </li>
             </ul>
-            <p class="download"><a href="{{transfer.movie_url}}">{{transfer.download}}</a></p>
+            <p class="download">
+                <a href="{{transfer.movie_url}}" onclick="ga('send', 'event', 'outbound', 'click', '{{transfer.movie_url}}')">{{transfer.download}}</a>
+            </p>
         </div>
         <p class="footer">
             <a href="index{{langSuffix}}.html">{{transfer.main}}</a>

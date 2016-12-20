@@ -23,10 +23,9 @@
           </svg>
           <p class="trailer">{{index.trailer}}</p>
         </div>
-        <div class="video none"> 
+        <div class="video none">
             <div class="close none"></div>
             <div id="player"></div>
-            <!-- <iframe src="https://www.youtube.com/embed/Fftqr09RQ1w" frameborder="0" allowfullscreen></iframe> -->
         </div>
             <p class="footer">
               {{#index.footer}}

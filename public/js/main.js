@@ -19,8 +19,6 @@ $(document).ready(function($) {
   var stroke = document.querySelector('.stroke');
   var length = stroke.getTotalLength();
 
-  // console.log(length);
-
   stroke.style.strokeDasharray = length;
   stroke.style.strokeDashoffset = length;
 
@@ -32,12 +30,12 @@ $(document).ready(function($) {
     $strokebg.css('stroke', 'white');
   }, 12200);
 
-  function retinaSrc(src) {
-    if (window.Retina.isRetina()) {
-      src = src.replace('.jpg', '@2x.jpg');
-    }
-    return src;
-  }
+  // function retinaSrc(src) {
+  //   if (window.Retina.isRetina()) {
+  //     src = src.replace('.jpg', '@2x.jpg');
+  //   }
+  //   return src;
+  // }
 
   function onReady() {
     $window.resize(function() {
