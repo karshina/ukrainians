@@ -30,25 +30,14 @@ transfer:
   headline: TRANSFER FUNDS
   description: |
     Donations are much appreciated and will benefit children whose parents have died protecting their land. If you choose to not donate, you can download the movie for free. Thank you for your understanding and enjoy the viewing. Glory of Ukraine!
-  payment: DETAILS FOR DONATIONS IN UAH
-  payinfo: 
-    - line: UkrSibBank
-    - line: MFO 351005
-    - line: EDRPOU 40098921
-    - line: Account Number 26008590058400
-  paymentUS: DETAILS FOR DONATIONS in US dollars
-  payinfoUS:
-    - line: Name of entity "Services of social security NVR Right Sector"
-    - line: Code EDRPOU 40098921, in USD
-    - line: Account Number 26008590058400
-    - line: Bank Name - Public Company "UkrSibBank", MFO 351005
-    - line: Beneficiary Bank (AT "UkrSibBank"), 020061151200138
-    - line: UKRSIBBANK, MOSKOVSKY AVE 60, KHARKIV, UKRAINE
-    - line: SWIFT-code KHABUA2K
-    - line: Bank agency - BNP PARIBAS U.S.A.-New York Branch, New York USA
-    - line: SWIFT-code BNPAUS3N
+  payment: DETAILS FOR DONATIONS
+  payinfo:
+    - line: <a href="https://sendmoney.privatbank.ua/ua/" target="_blank">Send money via PrivatBank</a>
+    - line: Card Number: 5363542303512199
+    - line: <br />
+    - line: PayPal: <a href="https://www.paypal.com/cgi-bin/webscr?business=leonid.kanter%40gmail.com&cmd=_xclick&currency_code=USD&amount=&item_name=Ukrainians.net.ua+Donation" target="_blank">leonid.kanter@gmail.com</a>
   download: WATCH MOVIE NOW
-  movie_url: https://drive.google.com/open?id=0BzKnIGv-1QQdbm92MFNnTnlVT2c
+  movie_url: https://youtu.be/XzdtOVHPsYA
   main: HOME
 
 about:
@@ -66,19 +55,9 @@ about:
     - profession: Producer
       name: Leonid Kanter
   prizes: AWARDS
-  prize: 
+  prize:
     - festival: 1. Poland - 13th GDAŃSK DOCFILM FESTIVAL 2015 (Audience award).
     - festival: 2. Nigeria - Abuja International film and video festival 2015 (Best documentary film)
-    # - festival: 3. "Cinema Vérité" Iran International Documentary Film Festival, 2015, Іран
-    # - festival: 4. Plus Camerimage, 2015, Польща
-    # - festival: 5. Cabo Verde International Film Festival, 2015, Кабо-Верде
-    # - festival: 6. Delhi International Film festival, 2015, Індія
-    # - festival: 7. 17th Madurai International Documentary and Short Film Festival 2015, Індія
-    # - festival: 8. BUZZ CEE International Film Festival 2016, Румунія
-    # - festival: 9. Перший Міжнародний фестиваль патріотичного документального кіно «КіноДок», 2016, Україна
-    # - festival: 10. Премія НCКУ, 2016, Україна - Диплом Секретаріату Правління НСКУ «За громадянську та мистецьку мужність у фіксуванні та осмисленні подій російсько-української війни»
-    # - festival: 11. CreActive International Open Film Festival (IOFF), 2016, Бангладеш
-    # - festival: 12. Миколайчук-Фест, 2016, Україна - фільм-закриття
   main: HOME
 
 contacts:
@@ -86,7 +65,7 @@ contacts:
   description:
     - Distribution and public showings abroad, contact – <a href="mailto:leonid.kanter@gmail.com">leonid.kanter@gmail.com</a>, <a href="tel:+380672306207">+380 67 230 62 07</a>.
     - Distribution and public showings in Ukraine, contact – <a href="mailto:union-tyres@i.ua">union-tyres@i.ua</a>, <a href="tel:+380443532359">+380 44 353 23 59</a>, <a href="tel:+380675482514">+380 67 548 25 14</a>.
-    - Questions about child support, contact – Anna Demidenko – <a href="mailto:demidenko.ganna@gmail.com">demidenko.ganna@gmail.com</a>, <a href="tel:+380967231202">+380 96 723 12 02</a>. 
+    - Questions about child support, contact – Anna Demidenko – <a href="mailto:demidenko.ganna@gmail.com">demidenko.ganna@gmail.com</a>, <a href="tel:+380967231202">+380 96 723 12 02</a>.
     - <strong>Facebook Page:<strong>
     - <a href="https://www.facebook.com/profile.php?id=274847276048233">Добровольці Божої Чоти</a>
     - <a href="https://www.facebook.com/profile.php?id=782610808490736">The UKRAINIANS</a>

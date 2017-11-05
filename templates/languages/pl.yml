@@ -30,25 +30,14 @@ transfer:
   headline: PSZELICZYĆ KOSZTY NA KSZTAŁCENIE DZIECI
   description: |
     Prosimy Was przeliczyć dobrowolny wniosek  - to pomoże wykształcić dzieci, rodzice których zginęli w obronię Ojczyzny. Jeżeli nie macie takej możliwości – możecie skopjować  film bezplatno. Dziękujemy za wyrozumiałość i pięknego przeglądu. Slawa Ukraini!
-  payment: REKWIZYTY DLA OFIAR W GRYWNACH
-  payinfo: 
-    - line: УкрСиббанк
-    - line: МФО 351005
-    - line: ЄДРПОУ 40098921
-    - line: P/p 26008590058400
-  paymentUS: REKWIZYTY DLA OFIAR W DOLARACH USA
-  payinfoUS:
-    - line: Imie osoby prawniczej „Służba socialnej ochrony HBP „Prawyj Sektor”
-    - line: Код ЄДПРОУ  40098921, waluta rachunku USD
-    - line: P/p 26008590058400
-    - line: Nazwa Banku – Publiczne Aukcijne Towarzystwo „Укрсіббанк”, МФО 351005
-    - line: Bank Dobroczynny (АТ "УкрСиббанк"), 020061151200138
-    - line: UKRSIBBANK, 60, MOSKOVSKIY AVE., KHARKIV, UKRAINE
-    - line: SWIFT-kod KHABUA2K
-    - line: Bank pośrednik - BNP PARIBAS U.S.A.-New York Branch, New York USA
-    - line: SWIFT-kod BNPAUS3N
+  payment: REKWIZYTY DLA OFIAR
+  payinfo:
+    - line: <a href="https://sendmoney.privatbank.ua/ua/" target="_blank">Send money via PrivatBank</a>
+    - line: Card Number: 5363542303512199
+    - line: <br />
+    - line: PayPal: <a href="https://www.paypal.com/cgi-bin/webscr?business=leonid.kanter%40gmail.com&cmd=_xclick&currency_code=USD&amount=&item_name=Ukrainians.net.ua+Donation" target="_blank">leonid.kanter@gmail.com</a>
   download: OBEJRZYĆ FILM
-  movie_url: https://drive.google.com/open?id=0B2SCjeZluIq-U3NqLUc5TmpIUFU
+  movie_url: https://youtu.be/sBm7kkaRT88
   main: STRONA GŁÓWNA
 
 about:
@@ -58,7 +47,7 @@ about:
     - profession: Reżysery
       name: Leonid Kanter, Ivan Jasnij
     - profession: Operator filmowy
-      name: Ivan Jasnij, Leonid Kanter  
+      name: Ivan Jasnij, Leonid Kanter
     - profession: Muzyka
       name: Oleksij Byk, "Komu wnyz"
     - profession: Dzwiek
@@ -66,19 +55,9 @@ about:
     - profession: Producent
       name: Leonid Kanter
   prizes: NAGRODY
-  prize: 
+  prize:
     - festival: 1. 13-ty Gdanśki Docfilm Festywal, 2015, Polska. Nagroda widzów.
     - festival: 2. Nigeria – Abuja Mędzynarodowy filmowy i wideo Festiwal, 2015 (Najlepszy film dokumentalny).
-    # - festival: 3. "Cinema Vérité" Iran International Documentary Film Festival, 2015, Іран
-    # - festival: 4. Plus Camerimage, 2015, Польща
-    # - festival: 5. Cabo Verde International Film Festival, 2015, Кабо-Верде
-    # - festival: 6. Delhi International Film festival, 2015, Індія
-    # - festival: 7. 17th Madurai International Documentary and Short Film Festival 2015, Індія
-    # - festival: 8. BUZZ CEE International Film Festival 2016, Румунія
-    # - festival: 9. Перший Міжнародний фестиваль патріотичного документального кіно «КіноДок», 2016, Україна
-    # - festival: 10. Премія НCКУ, 2016, Україна - Диплом Секретаріату Правління НСКУ «За громадянську та мистецьку мужність у фіксуванні та осмисленні подій російсько-української війни»
-    # - festival: 11. CreActive International Open Film Festival (IOFF), 2016, Бангладеш
-    # - festival: 12. Миколайчук-Фест, 2016, Україна - фільм-закриття
   main: STRONA GŁÓWNA
 
 contacts:
@@ -86,7 +65,7 @@ contacts:
   description:
     - Dystrybucja I publiczne pokazy za granicą – <a href="mailto:leonid.kanter@gmail.com">leonid.kanter@gmail.com</a>, <a href="tel:+380672306207">+380 67 230 62 07</a>.
     - Dystrybucja I publiczne pokazy w Ukraini – <a href="mailto:union-tyres@i.ua">union-tyres@i.ua</a>, <a href="tel:+380443532359">+380 44 353 23 59</a>, <a href="tel:+380675482514">+380 67 548 25 14</a>.
-    - Po pytaniu wsparcia dcieciom – Anna Demydenko – <a href="mailto:demidenko.ganna@gmail.com">demidenko.ganna@gmail.com</a>, <a href="tel:+380967231202">+380 96 723 12 02</a>. 
+    - Po pytaniu wsparcia dcieciom – Anna Demydenko – <a href="mailto:demidenko.ganna@gmail.com">demidenko.ganna@gmail.com</a>, <a href="tel:+380967231202">+380 96 723 12 02</a>.
     - <strong>Strony w Facebook:<strong>
     - <a href="https://www.facebook.com/profile.php?id=274847276048233">Ochotnicy Boskiego Zastȩpu</a>
     - <a href="https://www.facebook.com/profile.php?id=782610808490736">The UKRAINIANS</a>

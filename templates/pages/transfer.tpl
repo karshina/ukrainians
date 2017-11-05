@@ -10,18 +10,12 @@
                 <li class="payinfo-left">
                     <p class="headline1">{{transfer.payment}}</p>
                     {{#transfer.payinfo}}
-                    <p class="payinfo">{{line}}</p>
+                    <p class="payinfo">{{{line}}}</p>
                     {{/transfer.payinfo}}
-                </li>
-                <li class="payinfo-right">
-                    <p class="headline1">{{transfer.paymentUS}}</p>
-                    {{#transfer.payinfoUS}}
-                    <p class="payinfo">{{line}}</p>
-                    {{/transfer.payinfoUS}}
                 </li>
             </ul>
             <p class="download">
-                <a href="{{transfer.movie_url}}" onclick="ga('send', 'event', 'outbound', 'click', '{{transfer.movie_url}}')">{{transfer.download}}</a>
+                <a href="{{transfer.movie_url}}" onclick="ga('send', 'event', 'outbound', 'click', '{{transfer.movie_url}}')" target="_blank">{{transfer.download}}</a>
             </p>
         </div>
         <p class="footer">
