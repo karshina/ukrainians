@@ -1,6 +1,6 @@
 # THE UKRAINIANS
 
-[www.ukrainians.net.ua](http://www.ukrainians.net.ua/)
+[https://karshina.github.io/ukrainians/](https://karshina.github.io/ukrainians/)
 
 The website for the documentary movie THE UKRAINIANS. 
 
